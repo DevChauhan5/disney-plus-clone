@@ -9,7 +9,7 @@ function HrMovieCard({ movie }) {
     hover:border-[3px] border-gray-400 cursor-pointer
     '/>
             <h2 className='w-[110px] md:w-[260px] text-white
-    mt-2'>{movie.title}</h2>
+    mt-2 font-semibold'>{movie.title}</h2>
         </section>
     )
 }
